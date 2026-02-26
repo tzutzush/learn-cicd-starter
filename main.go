@@ -91,8 +91,8 @@ func main() {
 	router.Mount("/v1", v1Router)
 	timeout, _ := time.ParseDuration("5s")
 	srv := &http.Server{
-		Addr:    		   ":" + port,
-		Handler: 		   router,
+		Addr:              ":" + port,
+		Handler:           router,
 		ReadHeaderTimeout: timeout,
 	}
 
