@@ -6,7 +6,7 @@
      },
      {
        "path": "json.go",
-       "rules": ["G104"]
+       "rules": ["G705"]
      }
    ]
  }
