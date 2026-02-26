@@ -1,0 +1,12 @@
+ {
+   "exclude-rules": [
+     {
+       "path": "internal/database/.*",
+       "rules": ["*"]
+     },
+     {
+       "path": "json.go",
+       "rules": ["G705"]
+     }
+   ]
+ }
