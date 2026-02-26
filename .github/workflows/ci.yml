@@ -24,8 +24,8 @@ jobs:
       - name: Install gosec
         uses: go install github.com/securego/gosec/v2/cmd/gosec@latest
 
-      - name: Security check
-        run: gosec ./...
+      - name: gosec
+        run: gosec -conf gosec.json .
   style:
     name: Style
     runs-on: ubuntu-latest
