@@ -3,11 +3,10 @@
      {
        "path": "internal/database/.*",
        "rules": ["*"]
-+    },
-+    {
-+      "path": "json.go",
-+      "rules": ["G705"]
+     },
+     {
+       "path": "json.go",
+       "rules": ["G705"]
      }
-+
    ]
  }
